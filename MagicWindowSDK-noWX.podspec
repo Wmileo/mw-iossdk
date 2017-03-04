@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 
   s.name         = "MagicWindowSDK-noWX"
-  s.version      = "3.90.1701162"
+  s.version      = "3.90.1701163"
   s.summary      = "MagicWindowSDK for Cocoapods convenience."
   s.homepage     = "http://magicwindow.cn/"
   s.license      = "MIT"
   s.author       = { "MagicWindow" => "support@magicwindow.cn" }
-  s.source       = { :git => "https://github.com/magicwindow/mw-iossdk.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Wmileo/mw-iossdk.git", :tag => "#{s.version}" }
   s.platform     = :ios, "7.0"
   s.requires_arc = true
 s.source_files = "MagicWindowSDK/MagicWindowSDK/*.{h,m}"
