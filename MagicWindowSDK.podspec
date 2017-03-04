@@ -21,12 +21,12 @@ s.xcconfig = {
 s.frameworks = "AdSupport","CoreTelephony","CoreGraphics","CoreFoundation","SystemConfiguration","CoreLocation","WebKit"
 
   # WeChat
-  s.subspec 'WeChat' do |sp|
-  sp.vendored_libraries = "MagicWindowSDK/WeChat/*.a"
-  sp.source_files = "MagicWindowSDK/WeChat/*.{h,m}"
-  sp.public_header_files = "MagicWindowSDK/WeChat/*.h"
-  sp.frameworks = "CFNetwork","Security"
-  sp.libraries = "sqlite3.0","c++","z"
-  end
+  # s.subspec 'WeChat' do |sp|
+  # sp.vendored_libraries = "MagicWindowSDK/WeChat/*.a"
+  # sp.source_files = "MagicWindowSDK/WeChat/*.{h,m}"
+  # sp.public_header_files = "MagicWindowSDK/WeChat/*.h"
+  # sp.frameworks = "CFNetwork","Security"
+  # sp.libraries = "sqlite3.0","c++","z"
+  # end
 
 end
